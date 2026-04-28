@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Corporate – Next.js 16
 
-## Getting Started
+A modern, production‑ready Next.js 16 application with **Turbopack**, **Tailwind CSS 4**, and **TypeScript**.
 
-First, run the development server:
+---
+
+## 🚀 Overview
+
+This project is a demonstration of a modern corporate website architecture, designed with clean structural patterns, scalable front‑end practices, and contemporary UI principles.
+
+It includes a polished landing page along with essential corporate sections such as Services, About, and Contact.
+
+The purpose of this project is to provide a maintainable, production‑ready foundation that can be extended or adapted for real corporate websites, marketing pages, or client‑facing business platforms.
+
+---
+
+## 🎯 Features
+
+- ⚡ **Turbopack** – Blazing fast HMR
+- 🎨 **Tailwind CSS 4** – Utility‑first styling
+- 🔷 **TypeScript 5** – Full type safety
+- 📦 **pnpm** – Fast, disk‑efficient package manager
+- ✅ **ESLint 9** – Next.js core‑web‑vitals + TypeScript rules
+- 🏗️ **App Router** – Modern Next.js routing
+
+---
+
+## 🛠 Tech Stack
+
+| Tool         | Version |
+| ------------ | ------- |
+| Next.js      | 16.2.4  |
+| React        | 19.2.4  |
+| Tailwind CSS | 4       |
+| TypeScript   | 5       |
+| Turbopack    | Latest  |
+| ESLint       | 9       |
+| pnpm         | Latest  |
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <your-repo-url>
+cd corp
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run development server:**
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Visit 👉 http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Build for production:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+pnpm build
+```
 
-## Deploy on Vercel
+5. **Run production build:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pnpm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. **Lint code:**
+
+```bash
+pnpm lint
+```
+
+---
+
+## 📜 Scripts
+
+```bash
+pnpm dev       # Start dev server with Turbopack
+pnpm build     # Production build
+pnpm start     # Run production build
+pnpm lint      # Run ESLint
+```
+
+---
+
+## 📄 License
+
+[LICENSE File](./LICENSE)
