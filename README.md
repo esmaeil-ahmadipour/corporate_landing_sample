@@ -8,7 +8,7 @@ A modern, production‑ready Next.js 16 application with **Turbopack**, **Tailwi
 
 This project is a demonstration of a modern corporate website architecture, designed with clean structural patterns, scalable front‑end practices, and contemporary UI principles.
 
-It includes a polished landing page along with essential corporate sections such as Services, About, and Contact.
+It includes a polished landing page along with essential corporate sections such as Home, Reliability, Scale, and Performance.
 
 The purpose of this project is to provide a maintainable, production‑ready foundation that can be extended or adapted for real corporate websites, marketing pages, or client‑facing business platforms.
 
