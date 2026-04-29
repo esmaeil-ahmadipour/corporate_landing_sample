@@ -1,12 +1,12 @@
-import PageLayout from "@/components/PageLayout";
-import BackgroundImage from "@/components/BackgroundImage";
+import Hero from "@/components/Hero";
 import performanceImg from "../../../public/performance.jpg";
 
-export default function Performance() {
+export default function PerformancePage() {
   return (
-    <div>
-      <PageLayout title="Performance Page" />
-      <BackgroundImage src={performanceImg} alt="Performance image" />
-    </div>
+    <Hero
+      imgData={performanceImg}
+      imgAlt="Machine Welding image"
+      title="We serve high performance applications."
+    />
   );
 }

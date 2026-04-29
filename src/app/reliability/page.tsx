@@ -1,12 +1,12 @@
-import PageLayout from "@/components/PageLayout";
-import BackgroundImage from "@/components/BackgroundImage";
+import Hero from "@/components/Hero";
 import reliabilityImg from "../../../public/reliability.jpg";
 
-export default function Reliability() {
+export default function ReliabilityPage() {
   return (
-    <div>
-      <PageLayout title="Reliability Page" />
-      <BackgroundImage src={reliabilityImg} alt="Reliability image" />
-    </div>
+    <Hero
+      imgData={reliabilityImg}
+      imgAlt="Welder image"
+      title="Super high reliability hosting."
+    />
   );
 }

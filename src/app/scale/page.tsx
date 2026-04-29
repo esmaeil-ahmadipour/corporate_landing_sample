@@ -1,12 +1,12 @@
-import PageLayout from "@/components/PageLayout";
-import BackgroundImage from "@/components/BackgroundImage";
 import scaleImg from "../../../public/scale.jpg";
+import Hero from "@/components/Hero";
 
-export default function Scale() {
+export default function ScalePage() {
   return (
-    <div>
-      <PageLayout title="Scale Page" />
-      <BackgroundImage src={scaleImg} alt="Scale image" />
-    </div>
+    <Hero
+      imgData={scaleImg}
+      imgAlt="Steel factory image"
+      title="Scale your app to infinity."
+    />
   );
 }
